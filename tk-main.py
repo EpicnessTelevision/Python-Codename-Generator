@@ -1,7 +1,7 @@
 import random
 import tkinter as tk
 
-categories = ['Tech', 'Space', 'Nature', 'Fantasy', 'Unique', 'Microsoft', 'Phone Carriers', 'Linux', 'Canada', 'Math', 'Misc']  # Add your own categories
+categories = ['Tech', 'Space', 'Nature', 'Fantasy', 'Unique', 'Microsoft', 'Phone Carriers', 'Linux', 'Canada', 'Math', 'Misc', 'Numbers']  # Add your own categories
 words = {
     'Tech': ['Byte', 'Code', 'Algorithm', 'Node', 'Cyber', 'Nano'],
     'Space': ['Galaxy', 'Orbit', 'Star', 'Nebula', 'Cosmic', 'Quasar', 'Cluster'],
@@ -11,9 +11,10 @@ words = {
     'Microsoft': ['Neptune', 'Memphis', 'Longhorn', 'Whistler', 'Vista', 'Chicago'],
     'Phone Carriers': ['Sprint', 'Circular', 'AT&T', 'TracFone', 'T-Mobile', 'metroPCS', 'Orange', 'Vodafone', 'Boost'],
     'Linux': ['Bookworm', 'Debian', 'Fedora', 'Red Hat', 'Ubuntu', 'Arch', 'Arch Linux', 'GNOME', 'KDE', 'Plasma', 'Mint', 'Linux Mint'],
-    'Canada': ['Ontario', 'Quebec', 'Alberta', 'Saskatchewan', 'Manitoba', 'British Columbia', 'Nunavat', 'Yukon', 'Northwest' 'Prince Edward Island'],
+    'Canada': ['Ontario', 'Quebec', 'Alberta', 'Saskatchewan', 'Manitoba', 'British Columbia', 'Nunavut', 'Yukon', 'Northwest' 'Prince Edward Island'],
     'Math': ['Addition', 'Subtraction', 'Multiplication', 'Division'],
-    'Misc': ['Visine', 'Millennium', 'Dreamweaver', 'Rover', 'Cupertino', 'Coffee', 'Waterbay', 'Seaside', 'Shore', 'Jersey']
+    'Misc': ['Visine', 'Millennium', 'Dreamweaver', 'Rover', 'Cupertino', 'Coffee', 'Waterbay', 'Seaside', 'Shore', 'Jersey'],
+    'Numbers': ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten']
     # Add more words for each category
 }
 
